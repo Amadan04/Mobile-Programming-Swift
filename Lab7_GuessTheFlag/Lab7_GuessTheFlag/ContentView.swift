@@ -24,7 +24,7 @@ struct ContentView: View {
     /// Pool of country names; shuffled at the start and after every question
     @State private var countries = [
         "Estonia", "France", "Germany", "Ireland", "Italy",
-        "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"
+        "Monaco", "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"
     ].shuffled()
 
     /// Index (0, 1, or 2) of the correct flag among the three shown
